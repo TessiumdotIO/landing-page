@@ -123,7 +123,6 @@ export default function Home() {
 						</p>
 						<p className='sm:w-[80%]'>
 						High value community building for projects… <br />
-						since we are not ready to build this and keep it more secretive, just write only that and then let’s put a “releasing soon” visual at its top right.
 
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4 text-white'>

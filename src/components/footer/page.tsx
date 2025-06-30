@@ -20,9 +20,9 @@ const Footer = () => {
 							Launch App
 						</Link>
 						<Link
-							href={
-								'waitlist.tessium.io'
-							}>
+							href='https://waitlist.tessium.io'
+							target='_blank'
+							rel='noopener noreferrer'>
 							Waitlist
 						</Link>
 					</div>

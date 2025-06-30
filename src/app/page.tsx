@@ -91,26 +91,20 @@ export default function Home() {
 							Tessium Edu
 						</p>
 						<p className='sm:w-[80%]'>
-							Morbi ullamcorper non.
-							vitae Ut hendrerit est.
-							felis, non, lorem. Donec
-							diam Nunc facilisis
-							Vestibulum ipsum
-							consectetur sit dolor
-							urna. sollicitudin. leo.
-							ac
+						Gamified, structured web3 edtech — built to easily onboard the next wave of builders.
+						Interactive learning tracks with AI companions.
+						Onchain tracking and earning avenues for sustained progress.
+						Community connections and integration.
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4'>
 							<p className='py-1 px-2 bg-[#ffc884] rounded-md'>
-								Interactive
-								classes
+							Learn
 							</p>
 							<p className='py-1 px-2 bg-[#ffc884] rounded-md'>
-								NFT Certificates
+							Evolve
 							</p>
 							<p className='py-1 px-2 bg-[#ffc884] rounded-md'>
-								Progress
-								Tracking
+							Rewards 
 							</p>
 						</div>
 					</div>
@@ -128,25 +122,19 @@ export default function Home() {
 							Tessium Waves
 						</p>
 						<p className='sm:w-[80%]'>
-							Morbi ullamcorper non.
-							vitae Ut hendrerit est.
-							felis, non, lorem. Donec
-							diam Nunc facilisis
-							Vestibulum ipsum
-							consectetur sit dolor
-							urna. sollicitudin. leo.
-							ac
+						High value community building for projects… <br />
+						since we are not ready to build this and keep it more secretive, just write only that and then let’s put a “releasing soon” visual at its top right.
+
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4 text-white'>
 							<p className='py-1 px-2 bg-[#461da1] rounded-md'>
 								Custom Campaigns
 							</p>
 							<p className='py-1 px-2 bg-[#461da1] rounded-md'>
-								Community
-								Building
+							Community Growth
 							</p>
 							<p className='py-1 px-2 bg-[#461da1] rounded-md'>
-								Analytics
+							Immersive Experience
 							</p>
 						</div>
 					</div>
@@ -164,24 +152,19 @@ export default function Home() {
 							Tessium Games
 						</p>
 						<p className='sm:w-[80%]'>
-							Morbi ullamcorper non.
-							vitae Ut hendrerit est.
-							felis, non, lorem. Donec
-							diam Nunc facilisis
-							Vestibulum ipsum
-							consectetur sit dolor
-							urna. sollicitudin. leo.
-							ac
+						Evolve through play — where web3 versatility meets competitive fun.
+						Positive-sum games built with education at its core.
+						Real ecosystem onchain games tied to your Tess Rank.
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4 text-white'>
 							<p className='py-1 px-2 bg-[#ff5f6d] rounded-md'>
-								Quiz Challenges
+							Level Up
 							</p>
 							<p className='py-1 px-2 bg-[#ff5f6d] rounded-md'>
-								Onchain Games
+							Onchain
 							</p>
 							<p className='py-1 px-2 bg-[#ff5f6d] rounded-md'>
-								Rewards System
+							Tiered Rewards
 							</p>
 						</div>
 					</div>
@@ -199,24 +182,18 @@ export default function Home() {
 							Tessium Creator
 						</p>
 						<p className='sm:w-[80%]'>
-							Morbi ullamcorper non.
-							vitae Ut hendrerit est.
-							felis, non, lorem. Donec
-							diam Nunc facilisis
-							Vestibulum ipsum
-							consectetur sit dolor
-							urna. sollicitudin. leo.
-							ac
+						Next generation creator engine…
+
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4 text-white'>
 							<p className='py-1 px-2 bg-[#a022f5] rounded-md'>
-								Content tools
+							Create
 							</p>
 							<p className='py-1 px-2 bg-[#a022f5] rounded-md'>
-								Monetization
+							Scale
 							</p>
 							<p className='py-1 px-2 bg-[#a022f5] rounded-md'>
-								Creator Network
+							Earn
 							</p>
 						</div>
 					</div>

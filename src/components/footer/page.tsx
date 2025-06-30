@@ -19,7 +19,12 @@ const Footer = () => {
 						<Link href={'/'}>
 							Launch App
 						</Link>
-						<Link href={'/'}>Waitlist</Link>
+						<Link
+							href={
+								'waitlist.tessium.io'
+							}>
+							Waitlist
+						</Link>
 					</div>
 					<div className='flex flex-col gap-2 text-sm text-[#667085] mt-2'>
 						<p className='text-xl text-black'>

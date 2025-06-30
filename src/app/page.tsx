@@ -39,7 +39,7 @@ export default function Home() {
 			</section>
 			<section className='px-5'>
 				<div className='flex items-center justify-center gap-1 mt-12 mb-5'>
-					<p>About tessium</p>
+					
 					<CornerRightDown
 						size={20}
 						className=''

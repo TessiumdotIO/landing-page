@@ -22,8 +22,8 @@ export default function Home() {
 					Evolve Onchain
 				</h1>
 				<p className='text-center sm:text-xl mt-5'>
-					The New Layer for Web3 Content:
-					Gamified, Social, and{' '}
+					The New Layer for Content:
+					Gamified, Social and{' '}
 					<br className='hidden sm:block' />
 					Powered by Real Creators
 				</p>

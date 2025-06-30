@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 		title: 'Tessium | Web3 Evolve-&-Earn Platform',
 		description:
 			'Join Tessium, the premier Web3 Evolve-&-Earn platform where knowledge acquisition translates directly to valuable rewards.',
-		images: 'https://www.tessium.io/app-logo.png',
+		images: ['https://www.tessium.io/app-logo.png'],
 		site: '@Tessium_io',
 	},
 };

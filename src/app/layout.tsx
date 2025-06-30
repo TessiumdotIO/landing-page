@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		images: [
 			{
-				url: 'https://www.tessium.io/diamond.png',
+				url: 'https://www.tessium.io/tessium-logo.svg',
 				width: 1200, // Optional: Add width for better optimization
 				height: 630, // Optional: Add height
 				alt: 'Tessium Platform Image', // Optional: Add alt text
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 		title: 'Tessium | Web3 Evolve-&-Earn Platform',
 		description:
 			'Join Tessium, the premier Web3 Evolve-&-Earn platform where knowledge acquisition translates directly to valuable rewards.',
-		images: ['https://www.tessium.io/diamond.png'],
+		images: ['https://www.tessium.io/tessium-logo.svg'],
 		site: '@Tessium_io',
 	},
 };

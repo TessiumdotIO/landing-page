@@ -93,7 +93,7 @@ export default function Home() {
 						<p className='sm:w-[80%]'>
 						Gamified, structured web3 edtech — built to easily onboard the next wave of builders.
 						Interactive learning tracks with AI companions.
-						Onchain tracking and earning avenues for sustained progress.
+						Onchain tracking and earning avenues for sustained progress. <br />
 						Community connections and integration.
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4'>
@@ -151,8 +151,8 @@ export default function Home() {
 							Tessium Games
 						</p>
 						<p className='sm:w-[80%]'>
-						Evolve through play — where web3 versatility meets competitive fun.
-						Positive-sum games built with education at its core.
+						Evolve through play — where web3 versatility meets competitive fun. <br />
+						Positive-sum games built with education at its core. <br />
 						Real ecosystem onchain games tied to your Tess Rank.
 						</p>
 						<div className='flex items-center gap-2 flex-wrap text-sm mt-4 text-white'>

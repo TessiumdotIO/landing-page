@@ -81,19 +81,25 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
           </div>
+          <div
+  className="max-w-fit mx-auto mb-8 px-6 py-4 border border-[#461DA1] rounded-xl bg-white/20 backdrop-blur-md shadow-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#461DA1]/40"
+>
+  <h2
+    className="font-['Neue Machina'] text-[#461DA1]"
+    style={{
+      fontSize: "64px",
+      fontWeight: 400,
+      lineHeight: "100%",
+      letterSpacing: "-5%",
+      textAlign: "center",
+    }}
+  >
+    Tess Rank
+  </h2>
+</div>
 
-          <h2
-            className="font-['Neue Machina'] text-[#461DA1] mb-8"
-            style={{
-              fontSize: "64px",
-              fontWeight: 400,
-              lineHeight: "100%",
-              letterSpacing: "-5%",
-              textAlign: "center",
-            }}
-          >
-            Tess Rank
-          </h2>
+
+
 
           <div
             className="mx-auto rounded-2xl relative"
@@ -236,7 +242,7 @@ export default function Home() {
               <li>Onchain tracking and earning for sustained progress</li>
               <li>Community connections and integration</li>
             </ul>
-            <div className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white">
+            <div className="flex items-center gap-2 flex-wrap text-xs mt-4 text-black">
               <p className="py-1 px-2 bg-[#ffc884] rounded-md">Learn</p>
               <p className="py-1 px-2 bg-[#ffc884] rounded-md">Evolve</p>
               <p className="py-1 px-2 bg-[#ffc884] rounded-md">Rewards</p>

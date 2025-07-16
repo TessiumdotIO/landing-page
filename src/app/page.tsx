@@ -55,9 +55,15 @@ export default function Home() {
                   <p>Launch App</p>
                   <Rocket size={25} />
                 </button>
-                <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer">
-                  Join Waitlist
-                </button>
+                <a
+                  href="https://waitlist.tessium.io" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer">
+                    Join Waitlist
+                  </button>
+              </a>
               </div>
             </div>
 

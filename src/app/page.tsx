@@ -119,6 +119,7 @@ export default function Home() {
                     <p>Launch App</p>
                     <Rocket size={25} />
                   </motion.button>
+                  <a href="https://waitlist.tessium.io" target="_blank" rel="noopener noreferrer">
                   <motion.button
                     className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
                     whileHover={{ scale: 1.05 }}
@@ -126,6 +127,7 @@ export default function Home() {
                   >
                     Join Waitlist
                   </motion.button>
+                  </a>
                 </motion.div>
               </motion.div>
 

@@ -128,34 +128,6 @@ export default function Home() {
                   </motion.button>
                 </motion.div>
               </motion.div>
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Left side - Content */}
-            <div className="text-center lg:text-left">
-              <h1 className="text-4xl sm:text-6xl text-white font-['Neue Machina'] mb-6">
-                Enter Web3 <br />
-                Evolve Onchain
-              </h1>
-              <p className="text-white/80 text-lg sm:text-xl font-['Aeonik'] mb-8">
-                The New Layer for Web3 Content: Gamified, Social, and <br className="hidden sm:block" />
-                Powered by Real Creators
-              </p>
-              <div className="flex items-center justify-center lg:justify-start gap-3">
-                <button className="flex items-center gap-1 text-white bg-[#461da1] px-6 py-2 rounded-md hover:bg-[#5a2db6] transition-colors duration-300 cursor-pointer">
-                  <p>Launch App</p>
-                  <Rocket size={25} />
-                </button>
-                <a
-                  href="https://waitlist.tessium.io" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer">
-                    Join Waitlist
-                  </button>
-              </a>
-              </div>
-            </div>
 
               {/* Right side - Image */}
               <motion.div

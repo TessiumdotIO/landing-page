@@ -1,22 +1,45 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono, Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const geistSans = Geist({
-	variable: '--font-geist-sans',
-	subsets: ['latin'],
+// Configure your custom fonts
+const neueMachina = localFont({
+  src: [
+    {
+     path: '../fonts/NeueMachina-Regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/NeueMachina-Ultrabold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-neue-machina',
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
-	subsets: ['latin'],
-});
-
-const inter = Inter({
-	subsets: ['latin'],
-	weight: ['400', '700'],
-	variable: '--font-inter',
-	display: 'swap',
+const aeonik = localFont({
+  src: [
+    {
+      path: '../fonts/Aeonik-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/Aeonik-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+       path: '../fonts/Aeonik-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-aeonik',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -32,9 +55,9 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: 'https://www.tessium.io/logo.png',
-				width: 1200, // Optional: Add width for better optimization
-				height: 630, // Optional: Add height
-				alt: 'Tessium Platform Image', // Optional: Add alt text
+				width: 1200,
+				height: 630,
+				alt: 'Tessium Platform Image',
 			},
 		],
 	},
@@ -55,8 +78,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}>
+			<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			</head>
+			<body className={`${neueMachina.variable} ${aeonik.variable} antialiased`}>
 				{children}
 			</body>
 		</html>

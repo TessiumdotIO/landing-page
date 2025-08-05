@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar/page";
 import { Rocket } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import Footer from '../components/footer/page'
 export default function Home() {
   return (
     <>
@@ -806,6 +806,7 @@ export default function Home() {
               </motion.div>
             </div>
           </section>
+          <Footer/>  
         </div>
       </div>
     </>

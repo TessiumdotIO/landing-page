@@ -24,22 +24,22 @@ const Page = () => {
               </div>
           </div>
 
-           <div className="space-y-2">
+           <div className=" flex flex-col space-y-2">
                <h2 className="text-xl font-bold">Company</h2>
-                <Link href={''} className="block hover:text-purple-300 cursor-pointer">About</Link>
+                <Link href={''} className=" hover:text-purple-300 cursor-pointer">About</Link>
                 <Link href={''} className="hover:text-Linkurple-300 cursor-pointer">Partners</Link>
-            <Link href={''} className="hover:text-purple-300 block cursor-pointer">Careers</Link>
+            <Link href={''} className="hover:text-purple-300  cursor-pointer">Careers</Link>
             <Link href={''} className="hover:text-purple-300 cursor-pointer">Contact us</Link>
               </div>
             <div>
-           <p>connect with us</p>
+           <p className="capitalize">connect with us</p>
            <SocialIcons/>
             </div>
           
         </div>
 
         <div className="border-t border-purple-700 mt-8 pt-6 text-center text-sm text-purple-300">
-          <p>{getYear} Teselum.io. All rights reserved.</p>
+          <p>© {getYear} Teselum.io. All rights reserved.</p>
         </div>
       </div>
     </footer>

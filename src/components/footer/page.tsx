@@ -39,7 +39,7 @@ const Page = () => {
         </div>
 
         <div className="border-t border-purple-700 mt-8 pt-6 text-center text-sm text-purple-300">
-          <p>© {getYear} Teselum.io. All rights reserved.</p>
+          <p>© {getYear} Tessium.io. All rights reserved.</p>
         </div>
       </div>
     </footer>

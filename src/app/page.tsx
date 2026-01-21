@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar/page";
 import { Rocket } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Footer from '../components/footer/page'
+import Footer from "../components/footer/page";
 export default function Home() {
   return (
     <>
@@ -83,7 +83,7 @@ export default function Home() {
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
                 <motion.h1
-                  className="text-4xl sm:text-[96px] text-white  mb-6"
+                  className="text-4xl sm:text-[60px] text-white  mb-6"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
@@ -92,8 +92,7 @@ export default function Home() {
                       'var(--font-neue-machina), "Neue Machina", system-ui, sans-serif',
                   }}
                 >
-                  Enter Web3 <br />
-                  Evolve Onchain
+                  The AI Edutainment Layer for Interactive Journeys
                 </motion.h1>
                 <motion.p
                   className="text-white/80 text-lg sm:text-xl font-aeonik mb-8"
@@ -101,9 +100,8 @@ export default function Home() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                  The New Layer for Web3 Content: Gamified, Social, and{" "}
-                  <br className="hidden sm:block" />
-                  Powered by Real Creators
+                  Powering the Real User Economy for the Next Phase of Web3
+                  Adoption
                 </motion.p>
                 <motion.div
                   className="flex items-center justify-center lg:justify-start gap-3"
@@ -119,14 +117,18 @@ export default function Home() {
                     <p>Launch App</p>
                     <Rocket size={25} />
                   </motion.button>
-                  <a href="https://waitlist.tessium.io" target="_blank" rel="noopener noreferrer">
-                  <motion.button
-                    className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
+                  <a
+                    href="https://waitlist.tessium.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Join Waitlist
-                  </motion.button>
+                    <motion.button
+                      className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      Join Waitlist
+                    </motion.button>
                   </a>
                 </motion.div>
               </motion.div>
@@ -224,7 +226,7 @@ export default function Home() {
               >
                 <div className="flex flex-col items-center justify-center h-full text-center  text-white">
                   <motion.h3
-                    className="text-2xl sm:text-3xl font-bold mb-4 font-aeonik"
+                    className="text-2xl sm:text-3xl font-bold mb-7 font-aeonik"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -232,7 +234,7 @@ export default function Home() {
                   >
                     Your evolving onchain versatility score
                   </motion.h3>
-                  <motion.p
+                  {/* <motion.p
                     className="text-lg sm:text-xl mb-12 md:max-w-xl leading-relaxed "
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -242,7 +244,7 @@ export default function Home() {
                   >
                     Built from every module, game, onchain checkpoint, wave, AI
                     prompt and creator activity you complete across Tessium
-                  </motion.p>
+                  </motion.p> */}
 
                   {/* Medal Image */}
                   <motion.div
@@ -739,7 +741,6 @@ export default function Home() {
                 }}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                
                 <motion.div
                   initial={{ scale: 0.8, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
@@ -806,7 +807,7 @@ export default function Home() {
               </motion.div>
             </div>
           </section>
-          <Footer/>  
+          <Footer />
         </div>
       </div>
     </>

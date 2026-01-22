@@ -453,7 +453,7 @@ export default function Home() {
             }}
           >
             <motion.div
-              className="max-w-fit sm:max-w-[85%] lg:max-w-[70%] mx-auto mb-12 px-6 py-4"
+              className="max-w-fit sm:max-w-[85%] lg:max-w-[70%] mx-auto mb-12 px-3 py-4"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               initial={{ opacity: 0, y: 30 }}
@@ -484,7 +484,7 @@ export default function Home() {
                   ease: "easeInOut",
                 }}
               >
-                <h1 className="font-neue-machina text-white text-2xl sm:text-4xl mb-4">
+                <h1 className="font-neue-machina text-white text-3xl sm:text-4xl mb-4">
                   Building retention-driven onboarding journeys with AI
                 </h1>
                 <p className="text-lg sm:text-xl">

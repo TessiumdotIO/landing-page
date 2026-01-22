@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/components/navbar/page";
-import { Rocket } from "lucide-react";
+import { Rocket, User } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Footer from "../components/footer/page";
@@ -216,7 +216,7 @@ export default function Home() {
                 </h1>
                 <p className="text-lg sm:text-xl">
                   Tessium provides the framework that transforms knowledge hubs
-                  into interactive onboard journeys with AI
+                  into interactive onboard journeys through AI
                 </p>
               </motion.h2>
             </motion.div>
@@ -513,7 +513,7 @@ export default function Home() {
                     Cohesive creation tool suite
                   </p>
                   <p>
-                    Allowing projects. KOLs and anyone to create, share and
+                    Allowing projects, KOLs and anyone to create, share and
                     monetize interactive journeys in a fair system
                   </p>
                 </motion.p>
@@ -756,7 +756,7 @@ export default function Home() {
                     >
                       <div className="flex items-center gap-2">
                         <div className="w-6 h-6 border border-white rounded-full flex items-center justify-center">
-                          <span className="text-white text-sm">👤</span>
+                          <User size={16} className="text-white" />
                         </div>
                         <div>
                           <div className="text-white font-aeonik text-sm">

@@ -453,7 +453,7 @@ export default function Home() {
             }}
           >
             <motion.div
-              className="max-w-fit mx-auto mb-12 px-6 py-4  rounded-xl bg-[#461DA1] shadow-md"
+              className="max-w-fit sm:max-w-[85%] lg:max-w-[70%] mx-auto mb-12 px-6 py-4"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               initial={{ opacity: 0, y: 30 }}
@@ -484,19 +484,25 @@ export default function Home() {
                   ease: "easeInOut",
                 }}
               >
-                Our Core Features
+                <h1 className="font-neue-machina text-white text-2xl sm:text-4xl mb-4">
+                  Building retention-driven onboarding journeys with AI
+                </h1>
+                <p className="text-lg sm:text-xl">
+                  Tessium provides the framework that transforms knowledge hubs
+                  into interactive onboard journeys with AI
+                </p>
               </motion.h2>
             </motion.div>
 
             <div
-              className="grid grid-cols-1 md:grid-cols-2 px-4 sm:px-0"
+              className="flex flex-col lg:flex-row px-4 sm:px-0"
               style={{
                 gap: "30px",
                 fontFamily:
                   'var(--font-aeonik), "Aeonik", system-ui, sans-serif',
               }}
             >
-              <motion.div
+              {/* <motion.div
                 className="hover:bg-[#ffc8841A] py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -573,7 +579,7 @@ export default function Home() {
                     Progress Tracking
                   </motion.p>
                 </motion.div>
-              </motion.div>
+              </motion.div> */}
 
               {/* Tessium Waves */}
               <motion.div

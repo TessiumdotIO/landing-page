@@ -171,6 +171,396 @@ export default function Home() {
             background: "linear-gradient(135deg, #FFFFFF 0%, #461DA1 100%)",
           }}
         >
+          {/* Core Features Section */}
+          <section
+            className="px-4 sm:px-16 mx-auto md:mt-19 pb-28 pt-16"
+            style={{
+              maxWidth: "1238px",
+              minHeight: "913px",
+            }}
+          >
+            <motion.div
+              className="max-w-fit sm:max-w-[85%] lg:max-w-[70%] mx-auto mb-12 px-3 py-4"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+            >
+              <motion.h2
+                className="font-neue-machina text-white"
+                style={{
+                  fontSize: "64px",
+                  fontFamily:
+                    'var(--font-neue-machina), "Neue Machina", system-ui, sans-serif',
+                  fontWeight: 400,
+                  lineHeight: "100%",
+                  letterSpacing: "-5%",
+                  textAlign: "center",
+                }}
+                animate={{
+                  textShadow: [
+                    "0 0 5px rgba(70, 29, 161, 0)",
+                    "0 0 15px rgba(70, 29, 161, 0.5)",
+                    "0 0 5px rgba(70, 29, 161, 0)",
+                  ],
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <h1 className="font-neue-machina text-white text-3xl sm:text-4xl mb-4">
+                  Building retention-driven onboarding journeys with AI
+                </h1>
+                <p className="text-lg sm:text-xl">
+                  Tessium provides the framework that transforms knowledge hubs
+                  into interactive onboard journeys with AI
+                </p>
+              </motion.h2>
+            </motion.div>
+
+            <div
+              className="flex flex-col lg:flex-row px-4 sm:px-0"
+              style={{
+                gap: "30px",
+                fontFamily:
+                  'var(--font-aeonik), "Aeonik", system-ui, sans-serif',
+              }}
+            >
+              {/* <motion.div
+                className="hover:bg-[#ffc8841A] py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                whileHover={{
+                  scale: 1.03,
+                  boxShadow: "0 10px 25px rgba(255, 200, 132, 0.2)",
+                }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  viewport={{ once: true }}
+                >
+                  <Image
+                    src={"/tessium-edu.svg"}
+                    width={100}
+                    height={100}
+                    alt="Tessium Edu"
+                    className="mb-3"
+                  />
+                </motion.div>
+                <motion.p
+                  className="font-bold text-[32px] mb-3 font-neue-machina text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  viewport={{ once: true }}
+                >
+                  Tessium Edu
+                </motion.p>
+                <motion.ul
+                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  viewport={{ once: true }}
+                >
+                  <li>
+                    Gamified, structured web3 edtech for onboarding builders
+                  </li>
+                  <li>Interactive learning tracks with AI companions</li>
+                  <li>Onchain tracking and earning for sustained progress</li>
+                  <li>Community connections and integration</li>
+                </motion.ul>
+                <motion.div
+                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-black"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.6 }}
+                  viewport={{ once: true }}
+                >
+                  <motion.p
+                    className="py-1 px-2 bg-[#ffc884] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Interactive classes
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#ffc884] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    NFT Certificates
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#ffc884] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Progress Tracking
+                  </motion.p>
+                </motion.div>
+              </motion.div> */}
+
+              {/* Tessium Waves */}
+              <motion.div
+                className="hover:bg-[#461da11A] md:w-1/3 py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                whileHover={{
+                  scale: 1.03,
+                  boxShadow: "0 10px 25px rgba(70, 29, 161, 0.2)",
+                }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  viewport={{ once: true }}
+                >
+                  <Image
+                    src={"/tessium-waves.svg"}
+                    width={100}
+                    height={100}
+                    alt="Tessium Waves"
+                    className="mb-10"
+                  />
+                </motion.div>
+                <motion.p
+                  className="text-center mb-3 font-neue-machina text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.6 }}
+                  viewport={{ once: true }}
+                >
+                  <p className="font-bold text-lg mb-3">
+                    Enabling anyone build simple or complex interactive journeys
+                    for consumers
+                  </p>
+                  <p>
+                    Easily onboard and retain community through high quality
+                    prompting
+                  </p>
+                </motion.p>
+                {/* <motion.ul
+                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}
+                  viewport={{ once: true }}
+                >
+                  <li>High-value community building for projects</li>
+                  <li>Custom campaigns for engagement</li>
+                  <li>Immersive experiences for users</li>
+                </motion.ul> */}
+                {/* <motion.div
+                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.8 }}
+                  viewport={{ once: true }}
+                >
+                  <motion.p
+                    className="py-1 px-2 bg-[#461da1] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Custom campaigns{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#461da1] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Community Building{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#461da1] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Analytics
+                  </motion.p>
+                </motion.div> */}
+              </motion.div>
+
+              {/* Tessium Games */}
+              <motion.div
+                className="hover:bg-[#ff5f6d1A] md:w-1/3 py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                whileHover={{
+                  scale: 1.03,
+                  boxShadow: "0 10px 25px rgba(255, 95, 109, 0.2)",
+                }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}
+                  viewport={{ once: true }}
+                >
+                  <Image
+                    src={"/tessium-games.svg"}
+                    width={100}
+                    height={100}
+                    alt="Tessium Games"
+                    className="mb-10"
+                  />
+                </motion.div>
+                <motion.p
+                  className="text-center mb-3 font-neue-machina text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.8 }}
+                  viewport={{ once: true }}
+                >
+                  <p className="font-bold text-lg mb-3">
+                    Industrial grade access to an AI development stack hardcoded
+                    with unique gamification mechanics
+                  </p>
+                  <p>
+                    Gamified templates, onchain ports and personalized user
+                    journeys at scale
+                  </p>
+                </motion.p>
+                {/* <motion.ul
+                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.9 }}
+                  viewport={{ once: true }}
+                >
+                  <li>Evolve through competitive, fun web3 games</li>
+                  <li>Positive-sum games with education at the core</li>
+                  <li>Real ecosystem onchain games tied to Tess Rank</li>
+                </motion.ul> */}
+                {/* <motion.div
+                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 1.0 }}
+                  viewport={{ once: true }}
+                >
+                  <motion.p
+                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Quiz Challenges{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Onchain Games{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Rewards System{" "}
+                  </motion.p>
+                </motion.div> */}
+              </motion.div>
+
+              {/* Tessium Creator */}
+              <motion.div
+                className="bg-[#a022f51A] py-6 px-10 md:w-1/3 rounded-2xl shadow-md relative overflow-hidden border border-white"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.7 }}
+                whileHover={{
+                  scale: 1.03,
+                  boxShadow: "0 10px 25px rgba(160, 34, 245, 0.2)",
+                }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.9 }}
+                  viewport={{ once: true }}
+                >
+                  <Image
+                    src={"/tessium-creator.svg"}
+                    width={100}
+                    height={100}
+                    alt="Tessium Creator"
+                    className="mb-10"
+                  />
+                </motion.div>
+                <motion.p
+                  className="text-center mb-3 font-neue-machina text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 1.0 }}
+                  viewport={{ once: true }}
+                >
+                  <p className="font-bold text-lg mb-3">
+                    Cohesive creation tool suite
+                  </p>
+                  <p>
+                    Allowing projects. KOLs and anyone to create, share and
+                    monetize interactive journeys in a fair system
+                  </p>
+                </motion.p>
+                {/* <motion.ul
+                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 1.1 }}
+                  viewport={{ once: true }}
+                >
+                  <li>Next-generation creator engine</li>
+                  <li>Create and scale content effortlessly</li>
+                  <li>Earn rewards through creative contributions</li>
+                </motion.ul> */}
+                {/* <motion.div
+                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 1.2 }}
+                  viewport={{ once: true }}
+                >
+                  <motion.p
+                    className="py-1 px-2 bg-[#a022f5] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Content tools{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#a022f5] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Monetization{" "}
+                  </motion.p>
+                  <motion.p
+                    className="py-1 px-2 bg-[#a022f5] rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    Creator Network{" "}
+                  </motion.p>
+                </motion.div> */}
+              </motion.div>
+            </div>
+          </section>
+
           {/* Tess Rank Banner Section */}
           <section className="relative overflow-hidden  py-16 px-5">
             <div className="relative z-10 max-w-7xl mx-auto text-center">
@@ -442,376 +832,6 @@ export default function Home() {
                 delay: 1,
               }}
             ></motion.div>
-          </section>
-
-          {/* Core Features Section */}
-          <section
-            className="px-4 sm:px-16 mx-auto md:mt-19 pb-28 pt-16"
-            style={{
-              maxWidth: "1238px",
-              minHeight: "913px",
-            }}
-          >
-            <motion.div
-              className="max-w-fit sm:max-w-[85%] lg:max-w-[70%] mx-auto mb-12 px-3 py-4"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-            >
-              <motion.h2
-                className="font-neue-machina text-white"
-                style={{
-                  fontSize: "64px",
-                  fontFamily:
-                    'var(--font-neue-machina), "Neue Machina", system-ui, sans-serif',
-                  fontWeight: 400,
-                  lineHeight: "100%",
-                  letterSpacing: "-5%",
-                  textAlign: "center",
-                }}
-                animate={{
-                  textShadow: [
-                    "0 0 5px rgba(70, 29, 161, 0)",
-                    "0 0 15px rgba(70, 29, 161, 0.5)",
-                    "0 0 5px rgba(70, 29, 161, 0)",
-                  ],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-              >
-                <h1 className="font-neue-machina text-white text-3xl sm:text-4xl mb-4">
-                  Building retention-driven onboarding journeys with AI
-                </h1>
-                <p className="text-lg sm:text-xl">
-                  Tessium provides the framework that transforms knowledge hubs
-                  into interactive onboard journeys with AI
-                </p>
-              </motion.h2>
-            </motion.div>
-
-            <div
-              className="flex flex-col lg:flex-row px-4 sm:px-0"
-              style={{
-                gap: "30px",
-                fontFamily:
-                  'var(--font-aeonik), "Aeonik", system-ui, sans-serif',
-              }}
-            >
-              {/* <motion.div
-                className="hover:bg-[#ffc8841A] py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1 }}
-                whileHover={{
-                  scale: 1.03,
-                  boxShadow: "0 10px 25px rgba(255, 200, 132, 0.2)",
-                }}
-                viewport={{ once: true, amount: 0.2 }}
-              >
-                <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
-                  whileInView={{ scale: 1, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.3 }}
-                  viewport={{ once: true }}
-                >
-                  <Image
-                    src={"/tessium-edu.svg"}
-                    width={100}
-                    height={100}
-                    alt="Tessium Edu"
-                    className="mb-3"
-                  />
-                </motion.div>
-                <motion.p
-                  className="font-bold text-[32px] mb-3 font-neue-machina text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                  viewport={{ once: true }}
-                >
-                  Tessium Edu
-                </motion.p>
-                <motion.ul
-                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                  viewport={{ once: true }}
-                >
-                  <li>
-                    Gamified, structured web3 edtech for onboarding builders
-                  </li>
-                  <li>Interactive learning tracks with AI companions</li>
-                  <li>Onchain tracking and earning for sustained progress</li>
-                  <li>Community connections and integration</li>
-                </motion.ul>
-                <motion.div
-                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-black"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.6 }}
-                  viewport={{ once: true }}
-                >
-                  <motion.p
-                    className="py-1 px-2 bg-[#ffc884] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Interactive classes
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#ffc884] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    NFT Certificates
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#ffc884] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Progress Tracking
-                  </motion.p>
-                </motion.div>
-              </motion.div> */}
-
-              {/* Tessium Waves */}
-              <motion.div
-                className="hover:bg-[#461da11A]  py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.3 }}
-                whileHover={{
-                  scale: 1.03,
-                  boxShadow: "0 10px 25px rgba(70, 29, 161, 0.2)",
-                }}
-                viewport={{ once: true, amount: 0.2 }}
-              >
-                <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
-                  whileInView={{ scale: 1, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                  viewport={{ once: true }}
-                >
-                  <Image
-                    src={"/tessium-waves.svg"}
-                    width={100}
-                    height={100}
-                    alt="Tessium Waves"
-                    className="mb-3"
-                  />
-                </motion.div>
-                <motion.p
-                  className="font-bold text-[32px] mb-3 font-neue-machina text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.6 }}
-                  viewport={{ once: true }}
-                >
-                  Tessium Waves
-                </motion.p>
-                <motion.ul
-                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.7 }}
-                  viewport={{ once: true }}
-                >
-                  <li>High-value community building for projects</li>
-                  <li>Custom campaigns for engagement</li>
-                  <li>Immersive experiences for users</li>
-                </motion.ul>
-                <motion.div
-                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                  viewport={{ once: true }}
-                >
-                  <motion.p
-                    className="py-1 px-2 bg-[#461da1] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Custom campaigns{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#461da1] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Community Building{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#461da1] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Analytics
-                  </motion.p>
-                </motion.div>
-              </motion.div>
-
-              {/* Tessium Games */}
-              <motion.div
-                className="hover:bg-[#ff5f6d1A] py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.5 }}
-                whileHover={{
-                  scale: 1.03,
-                  boxShadow: "0 10px 25px rgba(255, 95, 109, 0.2)",
-                }}
-                viewport={{ once: true, amount: 0.2 }}
-              >
-                <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
-                  whileInView={{ scale: 1, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.7 }}
-                  viewport={{ once: true }}
-                >
-                  <Image
-                    src={"/tessium-games.svg"}
-                    width={100}
-                    height={100}
-                    alt="Tessium Games"
-                    className="mb-3"
-                  />
-                </motion.div>
-                <motion.p
-                  className="font-bold text-[32px] mb-3 font-neue-machina text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                  viewport={{ once: true }}
-                >
-                  Tessium Games
-                </motion.p>
-                <motion.ul
-                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.9 }}
-                  viewport={{ once: true }}
-                >
-                  <li>Evolve through competitive, fun web3 games</li>
-                  <li>Positive-sum games with education at the core</li>
-                  <li>Real ecosystem onchain games tied to Tess Rank</li>
-                </motion.ul>
-                <motion.div
-                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 1.0 }}
-                  viewport={{ once: true }}
-                >
-                  <motion.p
-                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Quiz Challenges{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Onchain Games{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#ff5f6d] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Rewards System{" "}
-                  </motion.p>
-                </motion.div>
-              </motion.div>
-
-              {/* Tessium Creator */}
-              <motion.div
-                className="bg-[#a022f51A] py-6 px-10 rounded-2xl shadow-md relative overflow-hidden border border-white"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.7 }}
-                whileHover={{
-                  scale: 1.03,
-                  boxShadow: "0 10px 25px rgba(160, 34, 245, 0.2)",
-                }}
-                viewport={{ once: true, amount: 0.2 }}
-              >
-                <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
-                  whileInView={{ scale: 1, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.9 }}
-                  viewport={{ once: true }}
-                >
-                  <Image
-                    src={"/tessium-creator.svg"}
-                    width={100}
-                    height={100}
-                    alt="Tessium Creator"
-                    className="mb-3"
-                  />
-                </motion.div>
-                <motion.p
-                  className="font-bold text-[32px] mb-3 font-neue-machina text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 1.0 }}
-                  viewport={{ once: true }}
-                >
-                  Tessium Creator
-                </motion.p>
-                <motion.ul
-                  className="text-sm sm:text-base font-aeonik list-disc list-inside space-y-2 text-white"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 1.1 }}
-                  viewport={{ once: true }}
-                >
-                  <li>Next-generation creator engine</li>
-                  <li>Create and scale content effortlessly</li>
-                  <li>Earn rewards through creative contributions</li>
-                </motion.ul>
-                <motion.div
-                  className="flex items-center gap-2 flex-wrap text-xs mt-4 text-white"
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 1.2 }}
-                  viewport={{ once: true }}
-                >
-                  <motion.p
-                    className="py-1 px-2 bg-[#a022f5] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Content tools{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#a022f5] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Monetization{" "}
-                  </motion.p>
-                  <motion.p
-                    className="py-1 px-2 bg-[#a022f5] rounded-md"
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  >
-                    Creator Network{" "}
-                  </motion.p>
-                </motion.div>
-              </motion.div>
-            </div>
           </section>
           <Footer />
         </div>

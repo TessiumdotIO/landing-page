@@ -18,7 +18,7 @@ const SocialIcons = () => {
 
       {/* Discord Icon */}
       <a
-        href="https://discord.gg/M8qjGA4GK"
+        href="https://discord.gg/pXmADX7qMe"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-200 hover:text-white transition-colors duration-200"
